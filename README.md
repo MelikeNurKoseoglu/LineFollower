@@ -9,7 +9,8 @@
 - ✨Raspberry Kamera Modülü
 - ✨L298N Motor Sürücü Kartı
 - ✨4 adet 12V DC motors
-- ✨Güç kaynağı
+- ✨Güç Kaynağı
+- ✨Jupmer Kablo
 
 
 
