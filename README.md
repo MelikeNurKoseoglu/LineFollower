@@ -4,6 +4,12 @@
 
 -Porjede 'Python' programlama dili ve kütüphanelerinden Open Cv, Numpy ve RPi.GPIO kullanılmıştır.
 
+-Robotta kullanılan malzemler
+  Raspberry Pi 3 Model B+
+  Raspberry Kamera Modülü
+  L298N Motor Sürücü Kartı
+  4 adet 12V DC motors
+  Güç kaynağı
 
 
 
