@@ -14,10 +14,10 @@
 
 ## Araç bağlantıları ile ilgili görseller
 
-![WhatsApp Image 2022-09-07 at 14 49 10 (1)](https://user-images.githubusercontent.com/74611768/189600127-a2d4b6eb-8edc-4510-b6e4-38601479cb04.jpeg)
+![WhatsApp Image 2022-09-07 at 14 49 10 (1)](https://user-images.githubusercontent.com/74611768/189600127-a2d4b6eb-8edc-4510-b6e4-38601479cb04.jpeg) ![WhatsApp Image 2022-09-07 at 14 49 10](https://user-images.githubusercontent.com/74611768/189600535-f09c532f-3364-44ec-a01a-6ecb0620584b.jpeg)
 
 
-![WhatsApp Image 2022-09-07 at 14 49 10](https://user-images.githubusercontent.com/74611768/189600535-f09c532f-3364-44ec-a01a-6ecb0620584b.jpeg)
+
 
 
 
