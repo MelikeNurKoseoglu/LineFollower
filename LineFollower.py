@@ -92,7 +92,11 @@ while True:
     
     cv2.imshow("Mask",mask)
     cv2.imshow("Frame",frame)
-    if cv2.waitKey(1) & 0xff == ord('q')
+    if cv2.waitKey(1) & 0xff == ord('q'):
+        GPIO.output(IN1, GPIO.LOW)
+        GPIO.output(IN2, GPIO.LOW)
+        GPIO.output(IN3, GPIO.LOW)
+        GPIO.output(IN4, GPIO.LOW)
         break
         
     
