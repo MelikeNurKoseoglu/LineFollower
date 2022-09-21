@@ -1,11 +1,11 @@
 ### LineFollower (Çizgi Takibi)
 
--Line Follower(Çizgi takibi) projesinde Raspberry Pi 3 Model B+ bilgisayarı kullanılarak görüntü işleme ile siyah çizgi takibi yapılmıştır.
+-Line Follower(Çizgi takibi) projesinde Raspberry Pi 4 Model B+ bilgisayarı kullanılarak görüntü işleme ile siyah çizgi takibi yapılmıştır.
 
 -Porjede 'Python' programlama dili ve kütüphanelerinden Open Cv, Numpy ve RPi.GPIO kullanılmıştır.
 
 -Araçta kullanılan malzemler
-- ✨Raspberry Pi 3 Model B+
+- ✨Raspberry Pi 4 Model B+
 - ✨Raspberry Kamera Modülü
 - ✨L298N Motor Sürücü Kartı
 - ✨4 adet 12V DC motors
