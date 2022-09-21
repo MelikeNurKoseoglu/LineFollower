@@ -7,9 +7,9 @@
 -Line Follower projesinde siyah çizgi takibi yaparken  belirli alt ve üst renk aralıklarındaki siyah rengi algılayıp kontür işlemi yapılıyor.Yapılan kontür işleminde en büyük kontür alanı belirlenip bu alanın orta noktasına bir daire çiziliyor. Çizilen daire açılan pencerenin(frame) x eksenindeki konumuna göre aracın gitmesi gereken yönü belirleniyor. Yön belirlendikten sonra  GPIO pinlerine komut gönderiliyor. Bu komutlara göre PWM değeri ayarlanmış olan aracın sağ , sol veya düz gitmesi için Dc motorlar hıgh ve low değerlerini uygulayarak araca yön veriyor. Çizginin algılanmaması durumunda (belirlenen alt ve üst değerlere sahip renk bulunmazsa) GPIO pinleri ile Dc motorlara low değeri gönderiliyor.
 
 -Raspberry GPIO pinleri ile L298N motor sürücü kartı  bağlantıları şu şekilde yapılmıştır:
-  -Enable pinleri raspberry pi üzerinde pvm pinlerine bağlanmıştır.
-  -İnput pinleri raspberry pi üzerinde GPIO4 GPIO17 GPIO27 GPIO22 pinlerine bağlanmıştır.
-  -Motor sürücü kartındaki diğer çıkışlardan birini raspberry pi üzerindeki pinlerden 5volta diğerini de gnd pinine bağlanmıştır.
+    -Enable pinleri raspberry pi üzerinde pvm pinlerine bağlanmıştır.
+    -İnput pinleri raspberry pi üzerinde GPIO4 GPIO17 GPIO27 GPIO22 pinlerine bağlanmıştır.
+    -Motor sürücü kartındaki diğer çıkışlardan birini raspberry pi üzerindeki pinlerden 5volta diğerini de gnd pinine bağlanmıştır.
   
   
   
