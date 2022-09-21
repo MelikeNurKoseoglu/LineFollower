@@ -3,6 +3,7 @@ import numpy as np
 import RPi.GPIO as GPIO
 
 cap = cv2.VideoCapture(0)
+
 cap.set(3,640)
 cap.set(4,480)
 
@@ -17,6 +18,7 @@ IN4=15
 
 GPIO.setup(Ena1, GPIO.OUT)
 GPIO.setup(Ena2, GPIO.OUT)
+
 GPIO.setup(IN1, GPIO.OUT)
 GPIO.setup(IN2, GPIO.OUT)
 GPIO.setup(IN3, GPIO.OUT)
@@ -29,6 +31,7 @@ pwm1.start(50)
 pwm2.start(50)
 
 while True:
+    
     ret, frame = cap.read()
     
     frame=cv2.flip(frame,1)
@@ -57,6 +60,7 @@ while True:
             
         if cx >= 480 :
             print("Sağa git")
+            
             GPIO.output(IN1, GPIO.LOW)
             GPIO.output(IN2, GPIO.HIGH)
             GPIO.output(IN3, GPIO.HIGH)
@@ -65,6 +69,7 @@ while True:
             
         if cx < 480 and cx > 160 :
             print("düz git")
+            
             GPIO.output(IN1, GPIO.HIGH)
             GPIO.output(IN2, GPIO.LOW)
             GPIO.output(IN3, GPIO.HIGH)
@@ -73,6 +78,7 @@ while True:
 
         if cx <=160 :
             print("sola git")
+            
             GPIO.output(IN1, GPIO.HIGH)
             GPIO.output(IN2, GPIO.LOW)
             GPIO.output(IN3, GPIO.LOW)
@@ -80,8 +86,10 @@ while True:
             
             
         cv2.circle(frame, (cx,cy), 5, (255,255,255), -1)
+        
     else :
         print("çizgi yok")
+        
         GPIO.output(IN1, GPIO.LOW)
         GPIO.output(IN2, GPIO.LOW)
         GPIO.output(IN3, GPIO.LOW)
@@ -92,6 +100,7 @@ while True:
     
     cv2.imshow("Mask",mask)
     cv2.imshow("Frame",frame)
+    
     if cv2.waitKey(1) & 0xff == ord('q'):
         GPIO.output(IN1, GPIO.LOW)
         GPIO.output(IN2, GPIO.LOW)
