@@ -21,7 +21,7 @@
 
 
 ## Robottan görüntüler
-WhatsApp Video 2022-09-21 at 22.07.55.mp4
+
 
 
 
