@@ -21,6 +21,7 @@
 
 
 ## Robottan görüntüler
+https://user-images.githubusercontent.com/74611768/191590273-4aeaf8a3-4fb7-40d9-9e24-a0dc60cfd59e.mp4
 
 
 
