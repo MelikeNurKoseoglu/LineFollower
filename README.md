@@ -20,7 +20,8 @@
 ![WhatsApp Image 2022-09-07 at 14 49 10](https://user-images.githubusercontent.com/74611768/189600535-f09c532f-3364-44ec-a01a-6ecb0620584b.jpeg)
 
 
-
+## Robottan görüntüler
+WhatsApp Video 2022-09-21 at 22.07.55.mp4
 
 
 
