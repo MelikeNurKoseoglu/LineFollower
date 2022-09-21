@@ -4,6 +4,7 @@
 
 -Porjede 'Python' programlama dili ve kütüphanelerinden Open Cv, Numpy ve RPi.GPIO kullanılmıştır.
 
+
 -Araçta kullanılan malzemler
 - ✨Raspberry Pi 4 Model B+
 - ✨Raspberry Kamera Modülü
@@ -20,7 +21,7 @@
 ![WhatsApp Image 2022-09-07 at 14 49 10](https://user-images.githubusercontent.com/74611768/189600535-f09c532f-3364-44ec-a01a-6ecb0620584b.jpeg)
 
 
-## Robottan görüntüler
+## Çizgi takibi projesinden  görüntüler
 
 
 https://user-images.githubusercontent.com/74611768/191590479-98ad6ca7-db50-4ff0-80c6-02cba3a6252a.mp4
