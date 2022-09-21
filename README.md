@@ -16,7 +16,7 @@
 
 -Raspberry GPIO pinleri ile L298N motor sürücü kartı  bağlantıları şu şekilde yapılmıştır:
 - ✨Enable pinleri raspberry pi üzerinde pvm pinlerine bağlanmıştır.
-- ✨İnput pinleri raspberry pi üzerinde GPIO4 GPIO17 GPIO27 GPIO22 pinlerine bağlanmıştır.
+- ✨İnput pinleri raspberry pi üzerinde GPIO4, GPIO17, GPIO27 ,GPIO22 pinlerine bağlanmıştır.
 - ✨Motor sürücü kartındaki diğer çıkışlardan birini raspberry pi üzerindeki pinlerden 5volta diğerini de gnd pinine bağlanmıştır.
   
 
